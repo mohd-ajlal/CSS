@@ -5,7 +5,6 @@ p {
 #note{
     color:blue;
     size: 18px;
-    text-decoration: underline;
     font-style: oblique;
 }
 
@@ -18,4 +17,8 @@ p {
     size: 18px;
     text-decoration: underline;
     font-style: oblique;
+}
+
+.underline-h{
+    text-decoration: underline;
 }
