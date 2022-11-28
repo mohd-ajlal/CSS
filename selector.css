@@ -1,0 +1,21 @@
+p {
+    color:red;
+}
+
+#note{
+    color:blue;
+    size: 18px;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+.green{
+    color:green;
+}
+
+#h1{
+
+    size: 18px;
+    text-decoration: underline;
+    font-style: oblique;
+}
