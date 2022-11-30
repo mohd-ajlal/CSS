@@ -1,0 +1,27 @@
+.bg{
+    background-color: #000000;
+}
+
+.white_text{
+    color: #ffffff;
+}
+
+.color_rgb{
+    color: rgb(255, 0, 0);
+}
+
+.color_rgba{
+    color: rgba(255, 0, 0, 0.5)
+}
+
+.color_hex{
+    color : #13ef12;
+}
+
+.color_hsl{
+    color : hsl(120,60%,70%);
+}
+
+.color_hsla{
+    color : hsla(120,60%,70%,0.3);
+}

@@ -1,0 +1,30 @@
+#body {
+    background-color: red;
+}
+
+.bg {
+    background-color: blueviolet;
+}
+
+.body_img {
+    background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg_multi {
+    background-image: url('multi_bg.png');
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_multiimg{
+    background-image: url(https://www.kindpng.com/picc/m/62-623077_corner-top-left-border-corner-design-clipart-hd.png),
+     url(https://www.pngitem.com/pimgs/m/116-1161690_bottom-right-corner-border-png-transparent-png.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+}
