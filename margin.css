@@ -1,0 +1,30 @@
+.margin{
+    color : red;
+    border-style: solid;
+    border-color: blue;
+    margin-top: 10;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-width: 2px;
+
+
+}
+
+.body{
+    border-style: dotted;
+    border-color: black;
+    border-width: 5px;
+}
+
+#margin1{
+    margin-top: -30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.margin2{
+    width: 200px;
+    margin: auto;
+    border-style: solid;
+    border-width: 3px;
+}

@@ -1,0 +1,66 @@
+.text1{
+    width: 750px;
+    border: 1px solid black;
+    color : purple;
+    text-align: justify;
+
+}
+.text2{
+    width: 1000px;
+    border: 1px solid black;
+    direction: rtl;
+}
+.text3{
+    width: 1500px;
+    border: 1px solid black;
+}
+.img{
+
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+.dec_text{
+    text-decoration: underline;
+}
+
+.text4{
+    text-transform: uppercase;
+}
+
+.text5{
+    line-height: 30px;
+    width: 300px;
+    border: 1px solid black;
+    color : purple;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+
+}
+
+.text6{
+    white-space: pre;
+    /* white-space: nowrap; */
+}
+
+.text_shadow{
+    width: 300px;
+    border: 1px solid black;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px blue;
+}
+
+.text7{
+    width: 300px;
+    border: 1px solid black;
+    color : purple;
+    text-align: justify;
+    text-shadow: 2px 2px 2px #0022ff;
+    word-wrap: break-word;
+}
+
+.verti_text{
+    writing-mode: vertical-rl;
+}
+
