@@ -1,0 +1,30 @@
+h1{
+    font-size: 75px;
+    color: red;
+    text-shadow: 5px 5px 3px violet;
+    font-weight: lighter;
+    font-family: abc;
+}
+
+p{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#font{
+    font-variant: small-caps;
+    font-size: 30px;
+    
+}
+
+.font1{
+    font-family: 'Rubik Microbe', cursive;
+    font-size: 100px;
+}
+
+@font-face {
+    font-family: 'abc';
+    src: url("fonts/RubikDistressed-Regular.ttf");
+}

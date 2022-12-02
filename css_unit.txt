@@ -1,0 +1,21 @@
+CSS UNIT
+
+* we can use length in width, height, margin, padding ad font-size.
+* There are two types of unit in css:
+    1. absolute unit
+    2. relative unit
+
+1. Absolute unit
+    cm
+    mm
+    inch
+    px - 1 inch = 96px
+    pt - 1 inch = 72px
+    pc - 1 pc = 12pt
+
+2. Relative unit
+    em :- em is relative to the size of its direct parent.
+    rem :- rem is only relative to root(html tag size) note: use to make ratio on phone also.
+    vh :- 1% of view port height
+    vw :- 1% of view port width
+    % :- relative to parent

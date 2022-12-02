@@ -1,0 +1,8 @@
+div{
+    border: 1px solid red;
+    cursor: not-allowed;
+}
+.div1{
+    border: 1px solid red;
+    cursor: progress;
+}
