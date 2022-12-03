@@ -1,8 +1,9 @@
 div{
-    border: 1px solid red;
+    border: 1px solid red !important;
     cursor: not-allowed;
 }
 .div1{
     border: 1px solid red;
     cursor: progress;
 }
+
