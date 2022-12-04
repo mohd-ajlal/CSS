@@ -1,0 +1,11 @@
+#color_box{
+    background-color: green;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 20px;
+    opacity: 0.3;
+}
+
+img:hover{
+    opacity: 0.5;
+}

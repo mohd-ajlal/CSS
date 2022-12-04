@@ -1,0 +1,5 @@
+img{
+    filter: blur(0px),contrast(80%), brightness(80%), saturate(80%), sepia(80%), hue-rotate(80deg), invert(80%), opacity(80%);
+    box-shadow: 15px 15px 30px red;
+
+}

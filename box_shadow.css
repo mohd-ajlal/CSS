@@ -1,0 +1,10 @@
+div{
+    border: 1px solid red;
+    width: 500px;
+    background-color: plum;
+    margin: 100px;
+    padding: 20px;
+    /* box-shadow: 15px 15px 10px 5px #888888 inset; */
+    box-shadow: 15px 15px 10px 5px #888888;
+    /* box-shadow: 15px 15px 10px 5px #888888, 15px 15px 10px 5px #888888; */
+}
