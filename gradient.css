@@ -1,0 +1,28 @@
+#div1{
+    background: linear-gradient(to right, red, yellow, green, blue, indigo, violet);
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+#div2{
+    background: linear-gradient(to bottom left, red,green);
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+#div3{
+    background: linear-gradient(130deg, red,green, blue);
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+#div4{
+    background: radial-gradient(circle, red 20%,green, blue);
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+
+}
