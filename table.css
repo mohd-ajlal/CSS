@@ -3,6 +3,8 @@ table{
     border-collapse: separate;
     border-spacing: 3px 5px;
     empty-cells: hide;
+    width: 100% ;
+    table-layout: auto;
 }
 
 caption{

@@ -1,0 +1,7 @@
+img{
+    border: 1px solid black;
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    object-position: top center;
+}

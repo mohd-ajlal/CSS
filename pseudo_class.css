@@ -1,0 +1,20 @@
+li:last-child{
+    color: green;
+}
+li:last-child{
+    color: green;
+}
+li:nth-child(odd){
+    color: yellowgreen;
+}
+li:nth-child(2n+6){
+    color: orange;
+}
+
+li:first-child{
+    color: red;
+}
+
+input:focus{
+    border: 3px solid red;
+}

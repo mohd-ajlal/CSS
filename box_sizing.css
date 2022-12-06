@@ -1,0 +1,14 @@
+#div1{
+    background-color: blueviolet;
+    height: 150px;
+    width: 600px;
+}
+
+#div2{
+    background-color: chocolate;
+    height: 150px;
+    width: 600px;
+    padding: 50px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
