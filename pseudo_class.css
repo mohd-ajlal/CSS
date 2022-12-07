@@ -18,3 +18,6 @@ li:first-child{
 input:focus{
     border: 3px solid red;
 }
+
+
+/* preudo- class has one one colon(:) */

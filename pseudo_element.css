@@ -1,0 +1,30 @@
+/* selector::preudo-element{} */
+
+p::first-letter{
+    color: red;
+    font-size: 50px;
+    /* background-color: yellow; */
+}
+
+p::first-line{
+    color: blue;
+    font-size: 20px;
+    /* background-color: yellow; */
+}
+
+h1::before{
+    content: "❤️";
+    color: red;
+}
+
+h1::after{
+    content: "❤️";
+    color: red;
+}
+
+h1::selection{
+    color: red;
+    background-color: yellow;
+}
+
+/* preudo element has 2 colon(::) */
