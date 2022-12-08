@@ -1,18 +1,5 @@
-/* position in css
-1. static (default) - no effect on element-normal floq
-2. relative
-3. absolute
-4. fixed
-5. sticky
- */
- 
- body{
-    height: 1000px;
-    background: #c58787;
- }
-
- #parent{
-    border: 5px solid red;
+#parent{
+    /* border: 5px solid red; */
     padding: 20px;
     width: 50%;
     margin: 100px;
@@ -24,7 +11,9 @@
     width: 100px;
     height: 100px;
     background-color: aquamarine;
-    display: inline-block;
+    display: inline-block;  
+    position: relative;
+    z-index: 3;
 
     }
 
@@ -33,11 +22,11 @@
     height: 100px;   
     background-color: bisque;
     display: inline-block;
-    position: fixed;
-    /* top: 50px;
-    left: 50px; */
-    bottom: 10px;
-    right: 10px;
+    position: relative;
+    top : 50px;
+    left: -50px;
+    z-index: 2;
+   
     }
 
 #div3{
@@ -45,5 +34,8 @@
     height: 100px;   
     background-color: #57a165;
     display: inline-block;
+    position: relative;
+    top : 100px;
+    left: -100px;
+    z-index: 1;
     }
-
