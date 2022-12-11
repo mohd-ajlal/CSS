@@ -1,0 +1,13 @@
+img{
+    height: 150px;
+    padding: 10px;
+}
+
+#img1{
+    float: right ;
+}
+
+#img2{
+    transform: rotate(90deg);
+    float: left;
+}
