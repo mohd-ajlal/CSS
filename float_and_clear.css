@@ -11,3 +11,75 @@ img{
     transform: rotate(90deg);
     float: left;
 }
+h1{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px black; 
+}
+
+ul{
+    background-color: rgb(164, 208, 236);
+    list-style-type: none;
+    /* border: 1px solid black; */
+    overflow: auto;
+}
+
+li{
+    color: darkblue;
+    padding: 10px 15px;
+    float: left;    
+
+}
+
+.tag{
+    border: 1px solid black;
+    overflow: auto;
+}
+
+#image{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+
+#image1{
+    float:right;
+    /* width: 100px; */
+
+    /* height: auto; */
+}
+
+#image2{
+    float: right;
+    clear: both;
+    /* width: 100px; */
+    /* height: auto; */
+}
+
+#contant{
+    width: 70%;
+    background-color: green;
+    height: 200px;
+    float: left;
+    font-size: 100px;
+    color: white;
+    text-align: centre;
+    text-shadow: 2px 2px 2px black;
+}
+
+#idsidebar{
+    width: 30%;
+    background-color: indianred;
+    height: 150px;
+    float: left;
+    font-size: 100px;
+    color: white;
+    text-align: centre;
+    text-shadow: 2px 2px 2px black;
+}
+
+#footer{
+    background-color: yellowgreen;
+    clear: both;
+}
