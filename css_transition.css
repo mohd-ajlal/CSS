@@ -1,0 +1,21 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 100px;
+
+    /* shortcode */
+    /* transition: width 1s 500ms ease-in-out, background-color 1s 500ms ease-in-out, height 1s 500ms ease-in-out; */
+    transition-property: width background-color height;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+#div1:hover{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* transition: all; */
+}

@@ -1,0 +1,108 @@
+@keyframes changecolor {
+
+    /* frome{
+        background-color: red;
+    }
+
+    to{
+        background-color: blue;
+    } */
+    0% {
+        background-color: red;
+    }
+    25% {
+        width: 300px;
+    }
+
+    50% {
+        background-color: blue;
+    }
+    75%{
+        /* height: 300px; */
+    }
+
+    100% {
+        background-color: green;
+    }
+
+}
+
+#animate {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    animation-delay: 150ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+#animate2 {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    animation-delay: 150ms;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    animation-timing-function: ease;
+}
+
+@keyframes change{
+    0%{
+        background-color: red;
+        border-radius: 10% ;
+    }
+    10%{
+        background-color: blue;
+        border-radius: 20% ;
+    }
+    20%{
+        background-color: green;
+        border-radius: 30% ;
+    }
+    30%{
+        background-color: indigo;
+        border-radius: 40% ;
+    }
+    40%{
+        background-color: maroon;
+        border-radius: 50% ;
+    }
+    50%{
+        background-color: fuchsia;
+        border-radius: 40% ;
+    }
+    60%{
+        background-color: wheat;
+        border-radius: 30% ;
+    }
+    70%{
+        background-color: royalblue;
+        border-radius: 20% ;
+    }
+    80%{
+        background-color: teal;
+        border-radius: 10% ;
+    }
+    90%{
+        background-color: plum;
+        border-radius: 10% ;
+    }
+    100%{
+        background-color: goldenrod;
+        border-radius: 10% ;
+    }
+}
+
+#animate3{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 150ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
