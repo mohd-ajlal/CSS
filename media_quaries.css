@@ -1,0 +1,47 @@
+#div1{
+    width: 70%;
+    float: left;
+    background-color: lawngreen;
+}
+
+#div2{  
+    width: 30%;
+    float: left;
+    background-color: rosybrown;
+}
+
+h1{
+    font-size: 80px;
+}
+
+@media screen and (max-width: 768px){
+    #div1{
+        width: 50%;
+    }
+    #div2{
+        width: 50%;
+        
+    }
+}
+/* @media screen and (max-width: 400px) and (min-width: 768px){ */
+@media screen and (max-width: 400px){
+    #div1{
+        width: 100%;
+        font-size: 40px;
+        background-color: black;
+        color: aliceblue;
+    }
+    #div2{
+        width: 100%;
+        font-size: 40px;
+        background-color: blue;
+        color: white;
+        text-shadow: 5px 5px 3px black;
+    }
+}
+
+img{
+    width : 100%;
+    height: auto;
+}
+
