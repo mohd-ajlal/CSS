@@ -1,0 +1,15 @@
+Both flexbox and grid has its own importance and should be used for designing a web page.
+
+grids works for 2Da aligment
+
+flexbox is good for space distribution
+
+CSS GRID
+
+grid column : the vertical lines of grid items is called columns
+
+grid rows: the horizontal lines of grid items is called rows
+
+grid gaps: the spaces between each column/rows called gaps.
+
+grid lines: The lines b/w column//rows are called column/rows lines

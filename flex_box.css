@@ -60,3 +60,124 @@
     width: 100px;
     text-align: center;
 }
+
+.flex-container3{
+    background-color: indianred;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+    /* align-content: flex-end;  */
+
+}
+
+.flex-child3{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+#one{
+    order: 2;
+}
+
+#two{
+    order: 3;
+}
+
+#three{
+    order: 1;
+}
+
+
+.flex-container4{
+    background-color: indianred;
+    display: flex;
+
+}
+
+.flex-child4{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+#one1{
+    flex-grow: 1;
+}
+
+#two1{
+    flex-grow: 2;
+}
+
+#three1{
+    flex-grow: 1;
+}
+.flex-container5{
+    background-color: indianred;
+    display: flex;
+
+}
+
+.flex-child5{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+#one2{
+    flex-shrink: 5;
+}
+
+#two2{
+    flex-shrink: 2;
+}
+
+#three2{
+flex-shrink: 10;
+}
+
+
+
+.flex-container6{
+    background-color: indianred;
+    display: flex;
+    height: 400px;
+
+}
+
+.flex-child6{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+#one3{
+    flex-basis: 150px;
+    align-self: flex-start;
+}
+
+#two3{
+    flex-basis: 300px;
+    align-self: center;
+}
+
+#three3{
+    flex-basis: 70px;
+    align-self: flex-end;
+}
+
+
