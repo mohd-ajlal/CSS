@@ -1,0 +1,57 @@
+*{
+    font-family: monospace;  
+    /* border: 1px solid red; */
+}
+
+/* main{
+    font-family: monospace;
+} */
+
+body{
+    font-size: 22px;
+    border: 3px solid black;
+}
+
+p{
+    color: purple;
+}
+
+h1{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 1.5;  
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-shadow: 3px 3px 4px rgb(94, 94, 227);
+    background-color: rgb(203, 190, 190);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.grey{
+    color: grey;
+}
+
+h3{
+   font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px red;
+}
+
+#italic{
+    font-style: italic;
+}
+.highlight{
+    background-color: rgb(255, 255, 0);
+}
