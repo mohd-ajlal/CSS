@@ -1,0 +1,16 @@
+header{
+    width: 100%;  /* 100% of the parent element */
+}
+
+p{
+    /* font-size: 16px; default font size */
+    font-size: 20px;
+}
+
+h1{
+    border: 2px dashed red;
+    width: 13%;
+    font-size: 40px;
+    padding: 8px;
+    /* font-size: 1rem; default */
+}
